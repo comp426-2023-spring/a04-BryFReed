@@ -1,0 +1,28 @@
+{
+  "name": "a04-bryfreed",
+  "version": "1.0.0",
+  "description": "api rps",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a04-BryFReed.git"
+  },
+  "author": "BryFReed",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a04-BryFReed/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/comp426-2023-spring/a04-BryFReed#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "minimist": "^1.2.8"
+  }
+}
